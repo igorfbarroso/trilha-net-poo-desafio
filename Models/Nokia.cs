@@ -5,7 +5,7 @@ namespace DesafioPOO.Models
     {
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine("Instalando o WhatsApp...");
+            Console.WriteLine($"Instalando o {nomeApp}");
         }
     }
 }
